@@ -41,3 +41,34 @@ Dentro de cada item numerado, o título do risco em negrito, seguido por dois su
 Descrição: [Explicação breve do risco]
 Contexto em que pode ocorrer: [Momento ou fase do projeto/operação em que o risco se materializa]
 ```
+
+## Criação analise.md
+```
+Atue como gerente de projetos e analista de riscos senior.
+Contexto: O projeto foca em extrair dados de produção, qualidade e estoque de sistemas ERP (BAAN V) em plantas globais, consolidá-los em Cloud e visualizá-los via Tableau. Já identificamos 5 riscos principais: Sobrecarga e Indisponibilidade do Banco de Dados Operacional (ERP BAAN V), Inconsistência, Duplicidade e Desalinhamento de Master Data (Dados Mestres) Global, Instabilidade, Exposição de Informações Confidenciais por Falta de Segurança, Exposição de Informações Confidenciais por Falta de Segurança no Tráfego de Dados e Incompatibilidade Tecnológica e Obsolescência das Conexões Legadas do BAAN V
+Objetivo: Realizar uma análise qualitativa estruturada para os 5 riscos identificados, detalhando os impactos, fatores condicionantes e classificando a probabilidade e o impacto de cada um. Além disso, deve elaborar uma Matriz Qualitativa de Riscos e definir as Zonas de Classificação com suas respectivas Ações Requeridas.
+(Estilo): Analítico, direto e estruturado. Formato de relatório de gestão de riscos padrão do PMI/PMBOK. Utilize listas aninhadas e aplique negrito nos nomes dos parâmetros para clareza visual e tabelas em Markdown para a Matriz de Riscos e as Zonas de Classificação.
+Tom: Profissional, crítico e pragmático. O tom deve refletir senioridade na avaliação de ameaças arquiteturais e de negócio em sistemas críticos.
+Público-Alvo: Comitê de direção do projeto e arquitetos de dados, que buscam entender a gravidade e o porquê de cada risco.
+Resposta: Dentro da pasta riscos, crie um arquivo chamado analise.md
+A estrutura do arquivo deve seguir estritamente o formato abaixo:
+
+# Etapa 2: Análise dos Riscos
+## 1. Análise Estruturada
+*(Repita a estrutura abaixo para os 5 riscos previamente mapeados no contexto)*
+*   **Risco:** [Nome do risco]
+    *   **Descrição:** [Detalhamento do risco]
+    *   **Possíveis impactos no projeto:** [Impactos em prazo, custo, qualidade ou negócio]
+    *   **Fatores condicionantes:** [Fatores que aumentam a chance de ocorrer]
+    *   **Probabilidade:** [Alta / Média / Baixa]
+    *   **Impacto:** [Alto / Médio / Baixo]
+    *   **Justificativa:** [Explicação para as classificações dadas]
+
+## 2. Matriz Qualitativa de Riscos
+*(Crie uma tabela Markdown cruzando Probabilidade nos eixos verticais vs. Impacto nos eixos horizontais, distribuindo os 5 riscos mapeados dentro das células correspondentes)*
+
+## 3. Zonas de Classificação e Ações Requeridas
+*(Crie uma tabela Markdown definindo as zonas da matriz, contemplando: Zona/Cor [Ex: Crítico, Moderado, Baixo], Critério [Ex: Probabilidade Alta + Impacto Alto] e Ação Requerida [Ex: Plano de mitigação imediato, Monitoramento contínuo])*
+
+*(Repita a estrutura acima para os 5 riscos previamente mapeados no contexto)*
+```

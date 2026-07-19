@@ -23,3 +23,21 @@ riscos/analise.md
 riscos/respostas.md
 comunicacao/status-stakeholders.md
 ```
+
+## Criação identificacao.md
+```
+Atue como gerente de projetos e arquiteto de soluções senior.
+Contexto: A arquitetura consiste em extrair dados de um ERP legado (BAAN V) de várias fábricas pelo mundo, processar e consolidar esses dados na Cloud, e exibi-los em dashboards gerenciais no Tableau. Etapa do processo de gestão de riscos do projeto.
+Objetivo: Criar o conteúdo completo para o arquivo identificacao.md, que documenta a identificação inicial dos riscos do projeto. Você deve detalhar os principais riscos arquiteturais e de negócio mapeados para esta integração.
+Estilo: Técnico, estruturado e analítico. Utilize listas e marcadores (bullet points) para facilitar a leitura. Use negrito para destacar os rótulos dos campos exigidos.
+Tom: Profissional, objetivo e voltado para a governança de projetos de TI.
+Público-Alvo: Avaliadores técnicos do exercício, stakeholders do projeto, arquitetos de dados e gerentes de TI que precisam entender rapidamente quais são as ameaças ao projeto.
+Resposta: Dentro da pastas riscos, crie um arquivo chamado identificacao.md
+A estrutura do documento deve ser:
+
+Um H1 com o título "Etapa 1: Identificação de Riscos".
+Uma lista numerada para cada um dos riscos identificados.
+Dentro de cada item numerado, o título do risco em negrito, seguido por dois sub-tópicos obrigatórios:
+Descrição: [Explicação breve do risco]
+Contexto em que pode ocorrer: [Momento ou fase do projeto/operação em que o risco se materializa]
+```

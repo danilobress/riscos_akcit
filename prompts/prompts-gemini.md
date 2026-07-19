@@ -93,3 +93,26 @@ Siga a estrutura exata abaixo:
 
 *(Repita a estrutura para os 5 riscos do contexto)*
 ```
+
+## Criação status-stakeholders.md
+```
+Atue como gerente de projetos senior.
+Contexto: Comunicar os riscos identificados e as decisões e o status geral aos patrocinadores e executivos do projeto de forma clara e não-alarmista.
+Objetivo: Um relatório de status executivo (Status Report) que resume o mapeamento dos riscos e as estratégias adotadas, com o objetivo de dar visibilidade e segurança ao comitê diretivo de que o projeto está sob controle.
+Estilo: Executivo, claro, conciso e visual. Evite jargões técnicos excessivos na explicação dos impactos (traduza problemas técnicos para impactos de negócio, como "parada de fábrica" ou "dados não confiáveis"). Utilize tabelas em Markdown e listas com marcadores (bullet points) para facilitar a leitura dinâmica.
+Tom: Transparente, seguro, profissional e orientado a soluções. Deve transmitir senioridade e controle, garantindo que os riscos são conhecidos e estão sendo ativamente gerenciados.
+Público-alvo: Stakeholders do projeto: C-Level (Diretores, Sponsors), gerentes de planta globais e líderes de negócios que precisam tomar decisões rápidas e não têm tempo para ler documentos longos.
+Resposta: Dentro da pasta comunicacao, crie um arquivo chamado status-stakeholders.md
+Siga a estrutura exata abaixo:
+
+# Relatório de Status Executivo: Dashboard Global de Manufatura
+
+## 1. Resumo Executivo
+*(Escreva um parágrafo curto e direto resumindo o momento atual do projeto, destacando a conclusão bem-sucedida do mapeamento e planejamento de respostas aos riscos de arquitetura)*
+
+## 2. Posição dos Riscos e Estratégias
+*(Crie uma tabela em Markdown contendo as seguintes colunas: **Ameaça Identificada** | **Criticidade** | **Estratégia** | **Ação Principal de Negócio**. Preencha as linhas com o resumo dos 5 riscos mapeados nas etapas anteriores)*
+
+## 3. Próximos Passos
+*(Liste de 3 a 4 ações gerenciais que darão continuidade ao projeto, como aprovações de budget para as mitigações, início das provas de conceito (PoC) da arquitetura, etc.)*
+```

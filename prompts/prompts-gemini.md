@@ -72,3 +72,24 @@ A estrutura do arquivo deve seguir estritamente o formato abaixo:
 
 *(Repita a estrutura acima para os 5 riscos previamente mapeados no contexto)*
 ```
+
+## Criação respostas.md
+```
+Atue como gerente de projetos e líder técnico no projeto senior.
+Contexto:  Na etapa anterior, mapeamos e analisamos 5 riscos: 1) Sobrecarga e Indisponibilidade do Banco de Dados Operacional (ERP BAAN V), 2) Inconsistência, Duplicidade e Desalinhamento de Master Data (Dados Mestres) Global, 3) Instabilidade, Exposição de Informações Confidenciais por Falta de Segurança, 4) Exposição de Informações Confidenciais por Falta de Segurança no Tráfego de Dados e 5) Incompatibilidade Tecnológica e Obsolescência das Conexões Legadas do BAAN V. Agora, é o momento de definir as estratégias de tratamento para esses riscos.
+
+Objetivo: Elaborar planos de resposta definindo a melhor estratégia (Evitar, Mitigar, Transferir ou Aceitar) para cada um dos 5 riscos identificados, justificando a escolha e detalhando ações práticas.
+Estilo: Acionável, estruturado e claro. Utilize tópicos (bullet points) para organizar as informações de forma hierárquica e facilite a leitura rápida. Destaque em negrito os rótulos de cada seção.
+Tom: Estratégico, decisivo e executivo. O tom deve demonstrar controle sobre as soluções arquiteturais e maturidade em gerenciamento de projetos.
+Público-Alvo: Stakeholders do projeto e engenheiros executores, que precisam saber exatamente qual direção o projeto vai tomar diante dos riscos.
+Resposta: Dentro da pasta riscos, crie um arquivo chamado respostas.md
+Siga a estrutura exata abaixo:
+
+# Etapa 3: Definição de Estratégias de Resposta
+*   **Risco:** [Nome do risco]
+    *   **Estratégia Proposta:** [Evitar, Mitigar, Transferir ou Aceitar - escolha a mais adequada ou uma combinação]
+    *   **Justificativa da escolha:** [Argumentação técnica/negócios do porquê essa estratégia é a ideal]
+    *   **Possíveis ações associadas:** [Passos práticos/tarefas para aplicar a estratégia]
+
+*(Repita a estrutura para os 5 riscos do contexto)*
+```
